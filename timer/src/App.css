@@ -1,0 +1,39 @@
+/* App.css */
+
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Add this positioning to make child elements absolute */
+  
+}
+
+.header {
+  font-size: 2rem;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+ 
+  background: #121212;
+  color: #fff;
+}
+
+/* Update the dark mode toggle styles */
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.block{
+  margin-top: 15%;
+}  
+
+.app {
+  font-family: 'Shadows', cursive;
+}

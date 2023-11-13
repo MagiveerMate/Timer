@@ -1,0 +1,52 @@
+/* Timer.css */
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #4CAF50;
+    letter-spacing: 3px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-family: 'Shadows', cursive;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  .container{
+    font-family: 'Shadows', cursive;
+  }
+
+  
